@@ -10,6 +10,7 @@
 a ="djshfjnj"
 print(a)
 
+B = "hfdshfjshfsfhsjkf"
 def click():
     print("hello")
 
