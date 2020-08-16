@@ -7,5 +7,11 @@
 @Software: PyCharm
 """
 
+a ="djshfjnj"
+print(a)
 
-"""我也不知道"""
+def click():
+    print("hello")
+
+if __name__ == '__main__':
+    click()
