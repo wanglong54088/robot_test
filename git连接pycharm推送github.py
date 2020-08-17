@@ -7,6 +7,7 @@
 @Software: PyCharm
 """
 
+aaa = "gfhdsfgdjshfdsk"
 a ="djshfjnj"
 print(a)
 
