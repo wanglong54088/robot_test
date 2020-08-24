@@ -10,14 +10,19 @@ from PIL import Image
 from PIL import ImageChops
 
 
-def compare_images(path_one, path_two, diff_save_location):
+def compare_images(path_one_name, path_two_name, diffent_save_name):
     """
     比较图片，如果有不同则生成展示不同的图片
-
     @参数一: path_one: 第一张图片的路径
     @参数二: path_two: 第二张图片的路径
     @参数三: diff_save_location: 不同图的保存路径
     """
+    all_path = r'D:\images\uitest' + '\\'
+    diff_save_location = all_path + diffent_save_name
+    path_one = all_path + path_one_name
+    print(path_one)
+    path_two = all_path + path_two_name
+    print(path_two)
     image_one = Image.open(path_one)
     image_two = Image.open(path_two)
     try:
@@ -37,6 +42,4 @@ def compare_images(path_one, path_two, diff_save_location):
 
 
 if __name__ == '__main__':
-    compare_images('1.png',
-                   '2.png',
-                   '我们不一样.png')
+    compare_images('002.png','003.png','004.png')
