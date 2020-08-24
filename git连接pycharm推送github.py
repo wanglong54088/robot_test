@@ -13,7 +13,7 @@ print(a)
 
 B = "hfdshfjshfsfhsjkf"
 def click():
-    print("hello")
+    print("hellohfdjsfhdjfhjds")
 
 if __name__ == '__main__':
     click()
